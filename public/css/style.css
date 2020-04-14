@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: underline;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.form-modals {
+    position: relative;
+}
+
+.form-modals__title {
+    position: absolute;
+    top: -14px;
+    left: 15px;
+    background: #fff;
+}
+.form-modals--tabl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-modals--tabl label {
+    margin-bottom: 0;
+}
+@media(max-width: 992px){
+    .border {
+        border: none !important;
+    }
+}
