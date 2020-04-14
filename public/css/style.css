@@ -30,8 +30,16 @@ input::-webkit-inner-spin-button {
 .form-modals--tabl label {
     margin-bottom: 0;
 }
+.modal-create .form-control{
+    width: 80%;
+}
 @media(max-width: 992px){
-    .border {
+    .navbar-nav.border {
         border: none !important;
     }
+}
+@media(max-width: 576px){
+    .modal-create .form-group label {
+        font-size: 14px;
+    } 
 }

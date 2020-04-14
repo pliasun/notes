@@ -17,8 +17,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav border">
-                <li class="nav-item active">
-                  <a class="nav-link" href="{{ route('home') }}">Справочник<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('home') }}">Справочник</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('create') }}">+ Добавить новый</a>
@@ -30,7 +30,7 @@
             </div>
           </nav>
         </header>
-        <div class="modal-default modal-login">
+        <div class="modal-default modal-create">
             @yield('content')
         </div>
     </div>
